@@ -121,7 +121,7 @@ export function createLogger(
 /**
  * Asynchronous version of the logger, that uses asynchronous output sink.
  * This is useful for cases, where output sink is some remote logging service.
- * User has a choice of how to handle error in the case when delivery of asynch message fails.
+ * User has a choice of how to handle error in the case when delivery of async message fails.
  * (i.e. broken connection to remote service, bad URL provided etc.)
  * 
  * Example of simple asynchronous sink, which simulates remote log service behavior:
