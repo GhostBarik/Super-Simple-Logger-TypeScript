@@ -10,10 +10,10 @@ Supported log levels: *ERROR*, *WARN*, *INFO*, *DEBUG*, *TRACE*
 ## Usage
 
 ```TypeScript
-// create logger for module 'MAIN' with level set to 'INFO', 
-// i.e. only message with level = ERROR, WARN, INFO will be printed by the logger
 import createLogger from logger
 
+// create logger for module 'MAIN' with level set to 'INFO', 
+// i.e. only message with level = ERROR, WARN, INFO will be printed by the logger
 const logger = createLogger('MAIN', LogLevel.INFO)
 
 logger.error("error message")  // will be printed
