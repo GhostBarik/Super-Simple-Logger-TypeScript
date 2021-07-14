@@ -54,10 +54,10 @@ const LogLevelStr = {
 
 const formatString = (template: string, parameters: FormatParameters): string =>
     Object.keys(parameters)
-    .reduce((template, key) => {
-        const formattedKey = '$' + `${key}`
-        return template.replace(formattedKey, `${parameters[key]}`)
-    }, template)
+    .reduce((template, key) => 
+        template.replace('$' + `${key}`, `${parameters[key]}`), 
+        template
+    )
 
 
 /**
