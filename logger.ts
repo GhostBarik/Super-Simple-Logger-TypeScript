@@ -63,7 +63,7 @@ const formatString = (template: string, parameters: FormatParameters): string =>
     )
 
 export function createLogger(
-    moduleName: string, 
+    moduleName: string = 'GLOBAL', 
     logLevel: LogLevel = LogLevel.INFO, 
     format: string = defaultLoggerFormat, 
     outputSink: (message: string) => void = consoleLoggerSink): Logger {
