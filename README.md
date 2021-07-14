@@ -1,4 +1,4 @@
-# Super Simple Logger (written in TypeScript)
+# Super Simple TypeScript Logger
 
 Custom implementation of logger in pure TypeScript.
 
