@@ -37,5 +37,5 @@ Output format template can be overriden for custom use
 (check the description for `createLogger(..)` function)
 
 ## Asynchronous Logging
-In case logger needs to write to some remote service (i.e. we need to call asynchronous function),
+In case logger needs to write to some remote service (i.e. it needs to call asynchronous function),
 you can use asynchronous version of the logger factory function -> `createAsyncLogger(..)` (check function description for usage example).
