@@ -27,11 +27,11 @@ logger.info("message example")
 ==> '[level=INFO, module=MAIN, 2021-07-14T19:20:44.156Z]: message example'
 ```
 
-## Default logger output
+## Default Logger Output
 By default logger outputs to `console.log(..)`, 
 but this can be overriden by providing alternative output sink in 
 `createLogger(..)` function (check function description)
 
-## Logger output format
+## Logger Output Format
 Output format template can be overriden for custom use 
 (check the description for `createLogger(..)` function) 
