@@ -145,6 +145,7 @@ export function createLogger(
  * 
  * const asyncLogger = createAsyncLogger('TEST', LogLevel.INFO, defaultLoggerFormat, customAsyncSink)
  * 
+ * // you can use either async/await syntax or Promise API to deliver the message
  * asyncLogger.info("test info message")
  *     .then(() => console.log('logged successfully'))
  *     .catch(() => console.log('log message cannot be delivered'))
