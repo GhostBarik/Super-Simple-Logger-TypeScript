@@ -2,7 +2,7 @@
 
 Custom implementation of logger in pure TypeScript.
 
-**Zero dependencies!** - just copy this file `logger.ts` your project and use
+**Zero dependencies!** - just copy this file `logger.ts` into your project and use
 
 Supported log levels: *ERROR*, *WARN*, *INFO*, *DEBUG*, *TRACE*
 
