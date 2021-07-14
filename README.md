@@ -23,10 +23,10 @@ logger.trace("trace message")  // WILL NOT BE PRINTED
 
 // output example
 logger.info("message example")
-==> `[level=INFO, module=MAIN, 2021-07-14T19:20:44.156Z]: message example`
+==> '[level=INFO, module=MAIN, 2021-07-14T19:20:44.156Z]: message example'
 ```
 
-## DEFAULT OUTPUT
+## Default logger output
 By default logger outputs to `console.log(..)`, 
 but this can be overriden by providing alternative output sink in 
 `createLogger(..)` function (check function description)
