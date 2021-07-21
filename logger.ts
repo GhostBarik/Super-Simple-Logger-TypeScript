@@ -180,6 +180,7 @@ export function createAsyncLogger(
         if (requiredLogLevel <= currentLogLevel) {
             return logFormattedMessage(requiredLogLevel, moduleName)(message)
         }
+        return (async () => {})()
     }
 
     const applied = filterAndLogMessage(logLevel, moduleName)
